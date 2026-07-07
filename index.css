@@ -1,3 +1,49 @@
 html{
-    color: aquamarine;
+    color: rgb(230, 193, 45);
+}
+/* tag */
+div{
+    color: blueviolet;
+}
+/* id */
+#id{
+}
+/* class */
+.apple{
+    color: brown;
+}
+/* property */
+[name="fr"]{
+    color: rgb(74, 74, 173);
+}
+/* and */
+.class1.class2{
+    color: aqua;
+}
+/* or */
+.class1,
+.class2{
+    color: rgb(25, 0, 255);
+}
+/* sub */
+.class1 .class2{
+    color: rgb(255, 0, 0);
+}
+/* hover */
+.class1:hover{
+    font-size: 40px;
+}
+/* 偉元素 (IG小盒子跳訊息) */
+.class1::after{
+    content: "5" ;
+    color: chartreuse;
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+}
+/* rwd */
+@media screen and (max-width:768px) {
+.class1 {
+    font-size: 70px;
+}
 }

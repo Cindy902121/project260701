@@ -6,86 +6,110 @@ hello world
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>我的履歷表</title>
     <style>
-    /* css */
-    html {
-        font-size: 30px; 
-    }
-    div {
-        font-size: 0.1;
-    }
+      /* css */
+      html {
+        font-size: 30px;
+      }
     </style>
     <link rel="stylesheet" href="./index.css" />
   </head>
-  <body>
-    <header>header</header>
+  <div>
+    <!-- <header>header</header> -->
     <nav>nav</nav>
     <main>main</main>
+    <article></article>
+    <section></section>
+    <aside></aside>
+    <figure></figure>
+    <figcaption></figcaption>
+    <picture></picture>
     <footer>footer</footer>
-<a href="https://www.google.com">google</a>
-<img src="./800x.jpg" alt="">
-<a href="https://www.google.com"><img src="./800x.jpg"/></a>
-<div><input type="text"/>text</div>
-<div><input type="checkbox" name="fr">checkbox</div>
-<div>
-<label><input type="radio" name="style" />白</label>
-<label><input type="radio" name="style" />富</label>
-<label><input type="radio" name="style" />美</label>
-</div>
-<div><input type="text" placeholder="請輸入姓名" /></div>
-<div><input type="number" placeholder="請輸入年齡" /></div>
-<div><input type="tel" placeholder="請輸入電話" /></div>
-<div><input type="password" placeholder="請輸入pwd" /></div>
-<div><input type="email" placeholder="請輸入email" /></div>
-<div>
-<label><input type="radio" name="handsome" value="yes" />是</label>
-<label><input type="radio" name="handsome" value="no" />否</label>
-</div>
-<div>
-<label><input type="checkbox" name="fruit" value="apple" />蘋果</label>
-<label><input type="checkbox" name="fruit" value="banana" />香蕉</label>
-<label><input type="checkbox" name="fruit" value="orange" />橘子</label>
-</div>
-<textarea cols="60" rows="10">內文</textarea>
-<button type="button">確認送出</button>
-<table border="1">
-<thead>
-<tr>
-<th style="font-weight: normal;">姓名</th>
-<th style="font-weight: normal;">電話</th>
-<th style="font-weight: normal;">email</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>王小明</th>
-<th>0912345678</th>
-<th>[EMAIL_ADDRESS]</th>
-</tr>
-<tr>
-<th>陳大王</th>
-<th>0909596874</th>
-<th>[EMAIL_ADDRESS]</th>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>a</li>
-<li>b</li>
-<li>c</li>
-</ul>
-<ol>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-</ol>
-<span>span</span>
-<strong>Strong</strong>
-<b>blod</b>
-<em>em</em>
-<i>italic</i>
-<s>kill</s>
-<del>delet</del>
-<sup>sup</sup>
-<div name="name" id="id" class="header apple" style="color: brown; font-size:60px; onclick="alert('a')">text</div>
+    <a href="https://www.google.com/">google<img src="./800x.jpg" /></a>
+
+    <div><input type="text" />text</div>
+    <div>
+      <label name="fr"><input type="checkbox" name="fr" />蘋果</label>
+      <label name="fr"><input type="checkbox" name="fr" />鳳梨 </label>
+      <label name="fr"><input type="checkbox" name="fr" />香蕉 </label>
+    </div>
+    <div>
+      <input type="radio" name="style" id="abc" /><label for="abc">ABC</label>
+      <label><input type="radio" name="style" />高</label>
+      <label><input type="radio" name="style" />富</label>
+      <label><input type="radio" name="style" />帥</label>
+    </div>
+    <div><input type="date" />date</div>
+    <div><input type="email" />email</div>
+    <div><input type="file" />file</div>
+    <div><input type="number" />number</div>
+    <div><input type="password" />password</div>
+    <div><input type="tel" />tel</div>
+    <div>
+      <select name="s" id="">
+        <option value="">選擇</option>
+        <option value="apple">蘋果</option>
+        <option value="pinapple">鳳梨</option>
+        <option value="banana">香蕉</option>
+      </select>
+    </div>
+    <textarea cols="60" rows="10">內文</textarea>
+    <button type="button">確認送出</button>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>姓名</th>
+          <th>性別</th>
+          <th>電話</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>張三</td>
+          <td>男</td>
+          <td>0912345678</td>
+          <td>[EMAIL_ADDRESS]</td>
+        </tr>
+        <tr>
+          <td>李四</td>
+          <td>女</td>
+          <td>0912345678</td>
+          <td>[EMAIL_ADDRESS]</td>
+        </tr>
+        <tr>
+          <td>王五</td>
+          <td>男</td>
+          <td>0912345678</td>
+          <td>[EMAIL_ADDRESS]</td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+    </ul>
+    <span>span</span>
+    <font size="10" color="#ff0000">font</font>
+    <strong>Strong</strong>
+    <b>Bold</b>
+    <em>em</em>
+    <i>italic</i>
+    <s>kill</s>
+    <del>delete</del>
+    <sup>sup</sup>
+    <div name="name" id="id" class="header apple" style="color: red; font-size: 36px" onclick="alert('a')">content</div>
+    <div class="apple">apple</div>
+    <div class="apple ghfhj">apple</div>
+    <div class="apple tytty">apple</div>
+    <div class="apple jhgjk">apple</div>
+    <div class="apple">apple</div>
+    <div class="apple">apple</div>
+    <div class="apple">apple</div>
+    <div class="apple">apple</div>
+<div class="class1 class2">class1class2</div>
+    <div class="class1">
+      <div class="class2">sub</div>
+    </div>
 </body>
 </html>
