@@ -3,10 +3,11 @@ html{
 }
 /* tag */
 div{
-    color: blueviolet;
+    color: blueviolet ; /* !important */
 }
 /* id */
 #id{
+    color: black;
 }
 /* class */
 .apple{
