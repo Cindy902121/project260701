@@ -22,6 +22,16 @@ div{
     color: aqua;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
+    background-color: #ecde16;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px dashed red;
+    border-radius: 100px;
+    line-height: 100px;
+    
 }
 /* or */
 .class1,
@@ -31,6 +41,7 @@ div{
 /* sub */
 .class1 .class2{
     color: rgb(255, 0, 0);
+    text-align: center;
 }
 /* hover */
 .class1:hover{
@@ -49,4 +60,37 @@ div{
 .class1 {
     font-size: 70px;
 }
+}
+.circle {
+  /* --- 圓圈的外觀設定 --- */
+  width: 150px;
+  height: 150px;
+  background-color: #EED445;   /* 黃色背景 */
+  border: 2px dashed red;      /* 紅色虛線邊框 */
+  border-radius: 50%;          /* 讓正方形變成圓形 */
+  color: aqua;                 /* 湖水綠文字 */
+  font-size: 24px;
+
+  /* --- 🌟 關鍵置中語法 (Flexbox) --- */
+  display: flex;               /* 啟用 Flexbox 排版 */
+  justify-content: center;     /* 左右置中 */
+  align-items: center;         /* 上下置中 */
+}
+.position{
+ position: fixed;
+ top: 100px;
+ left: 100px;
+ width: 100px;
+ height: 100px;
+ background-color: black;
+}
+.inline{
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+.block{
+        display: inline;
+    width: 100px;
+    height: 100px;
 }
