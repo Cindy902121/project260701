@@ -20,6 +20,8 @@ div{
 /* and */
 .class1.class2{
     color: aqua;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 /* or */
 .class1,
