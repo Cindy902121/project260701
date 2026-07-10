@@ -95,7 +95,7 @@ div{
     width: 100px;
     height: 100px;
 }
-. hero{
+.hero{
   height: 100vh;
   padding: 5vw;
 }
@@ -103,15 +103,11 @@ p {
   /* 語法：clamp(最小值, 建議值, 最大值) */
   font-size: clamp(16px, 2vw + 1rem, 24px);
 }
-<div class="w-scale">w-scale</div>
-<style>
 .w-scale {
   width: 100px;
 	border: 1px solid black;
   transition: width 3s ease-in-out;
 }
-
 .w-scale:hover {
   width: 300px;
 }
-</style>
