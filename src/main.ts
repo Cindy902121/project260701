@@ -58,3 +58,13 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log(e);
 console.log("end");
+
+let callA = (a: string) => {
+console.log(a + " A")
+}
+callA("hello")
+
+let BMI = (height: number,weight: number) =>{
+return weight/(height*height)
+}
+console.log(BMI(1.61,52))
