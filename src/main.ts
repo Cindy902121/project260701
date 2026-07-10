@@ -19,8 +19,42 @@ console.log("hello world");
 // null
 // undefined
 // let c = 1
-let a = 10;
-let b = 20;
+let a = 30;
+let b = 40;
+let c = 50;
 // 使用解構賦值來交換 a 與 b 的值
-[a, b] = [b, a];
-console.log(a, b);
+//[a, b] = [b, a];
+//console.log(a, b);
+
+// 判斷式 > < == != >= <=
+if (a > b) {
+  console.log("a is bigger");
+} else {
+  console.log("b is bigger");
+}
+if (a+b>c && a+c>b && b+c>a){
+  console.log("Triangle");
+} else {
+  console.log("Not a Triangle");
+}
+let year = 2024
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0){
+  console.log("Leap year");
+} else {
+  console.log("Not a Leap year");
+}
+
+// i=i+1
+console.log("start");
+for (let i = 0; i < 10; i++){
+  console.log(i);
+}
+console.log("end");
+
+console.log("start");
+let e = 0; 
+for (let i = 1; i <= 10; i++) {
+    e = e + i; 
+}
+console.log(e);
+console.log("end");
