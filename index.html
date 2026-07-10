@@ -12,6 +12,7 @@ hello world
       }
     </style>
     <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <div>
     <!-- <header>header</header> -->
@@ -114,5 +115,39 @@ hello world
     <div class="circle">
   class1class2
 </div>
+<div class="card">
+  <p class="title">Title</p>
+</div>
+<style>
+.card { font-size: 20px; }
+.title { font-size: 1.2em; } /* 20px * 1.2 = 24px */
+</style>
+<div>Normal</div>
+<div class="rotated">Rotated</div>
+<div class="scale">Scale</div>
+<div class="translate">Translate</div>
+<style>
+div {
+  width: 80px;
+  height: 80px;
+  background-color: skyblue;
+}
+
+.rotated {
+  transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+  background-color: pink;
+}
+
+.scale {
+	transform: scale(2, 2);
+	background-color: green;
+}
+
+.translate {
+	transform: translate(100px, 300px);
+	background-color: red;
+}
+</style>
+<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-lg">Click me</button>
 </body>
 </html>

@@ -78,8 +78,9 @@ div{
 }
 .position{
  position: fixed;
- top: 100px;
- left: 100px;
+ top: 50px;
+ left: 50px;
+ transform: translate(-50%,-50%);
  width: 100px;
  height: 100px;
  background-color: black;
@@ -90,7 +91,27 @@ div{
     height: 100px;
 }
 .block{
-        display: inline;
+    display: inline;
     width: 100px;
     height: 100px;
 }
+. hero{
+  height: 100vh;
+  padding: 5vw;
+}
+p {
+  /* 語法：clamp(最小值, 建議值, 最大值) */
+  font-size: clamp(16px, 2vw + 1rem, 24px);
+}
+<div class="w-scale">w-scale</div>
+<style>
+.w-scale {
+  width: 100px;
+	border: 1px solid black;
+  transition: width 3s ease-in-out;
+}
+
+.w-scale:hover {
+  width: 300px;
+}
+</style>
